@@ -159,6 +159,13 @@ Verificar o deployment
 kubectl get deployment
 ```
 
+
+Verificar recursos usados pelo pod
+```cmd
+kubectl top pod
+```
+
+
 ### Alterações nas replicar
 Vamos alterar o tamanho de replicas que queremos no arquivo manifesto
 ```cmd
